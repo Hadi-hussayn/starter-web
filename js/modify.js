@@ -33,11 +33,32 @@ document.querySelector('#add-btn').addEventListener('click', function onClick() 
   newList.textContent = 'add new';
   list.appendChild(newList);
 });
-document.querySelector('#remove-btn').addEventListener('click',onClick);
-function onClick(){
+
+document.querySelector('#remove-btn').addEventListener('click', onClick);
+function onClick() {
   document.querySelectorAll(".list");
   list.lastChild.remove()
 }
+// document.querySelectorAll('#elem1');
+// // elem1.append(document.createTextNode('this is div')
+// elem1 = textContent = (div);
+
+// function countRabbits() { for (let i = 1; i <= 3; i++) { alert("Rabbit number " + i); } }
+
+// elem.onclick = function(){
+//   alert('thank u');
+// };
+
+
+let userName = 'hadi';
+function showMesage(){
+  let message= 'hello ' +userName + '!';
+  // alert(message);
+};
+showMesage();
+
+function doNothing() { return; }
+alert(doNothing() == null);
 
 
 // let x=document.createElement('srong');
