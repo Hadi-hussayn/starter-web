@@ -1,0 +1,213 @@
+#slider{
+  background: url("/img/architecture-business-cabinet-325229.jpg") no-repeat;
+  height: 88vh;
+}
+ .my-jumbotron{
+   margin-top: 8rem;
+  background: none;
+  color: #f5c81f;
+  /* font-size: 5rem;  */
+}
+#slider .my-jumbotron .my-pera{
+  font-size: 2rem;
+  color: #fff;
+}
+#slider .my-dropdown{
+  width: 65%;
+  background:#252448;
+}
+#slider .my-dropdown{
+  color: #7d0187;
+  padding-bottom: 0;
+  line-height: 2rem;
+}
+#slider .my-dropdown:hover{
+  border: 1px solid rgb(13, 103, 133);
+}
+#slider .my-dropdownm{
+  color: #7d0187;
+  background:#363469;
+  padding-top: 0;
+}
+#slider .drop-item{
+  border: 1px solid rgb(13, 103, 133);
+  margin: 0;
+}
+#bottum{
+  display: flex;
+  justify-content: center;
+  background: url("/img/sliderr.jpg");
+  height: 11rem;
+  align-items: center;
+  text-align: center;
+  line-height: 2rem;
+}
+#bottum .heading{
+  color: #2f2ba7;
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#cards .visit-button{
+  text-align: center;
+}
+#cards .card-heading{
+  display: flex;
+  justify-content: center;
+  color:#2f2ba7;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-top: 3rem;
+  text-transform: uppercase;
+
+}
+#cards .visit-button .my-btn{
+  border-radius: 5rem;
+  height: 3rem;
+  background: #7d0187;
+  border: none;
+  /* box-shadow: 5px,4px,2px rgba(0.5, 0, 0, 0.6) */
+}
+#button{
+  display: flex;
+  margin-top: 1rem;
+  background: url(/img/architecture-business-cabinet-325229.jpg);
+  height: 32vh;
+  align-items: center;
+
+}
+#button .my-button{
+  border-radius: 5rem;
+  height: 3rem;
+  background: #7d0187;
+  border: none;
+  width: 8rem;
+  height: 3rem;
+}
+#game{
+  background:#252448;
+}
+#game .heading{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 8rem;
+  align-items: center;
+  font-size: 2rem;
+  color: skyblue;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#game .my-jumbotron1{
+  background: none;
+  color: #fff;
+}
+#game .my-jumbotron1 .heading1{
+  color: yellow;
+  font-size: 1.3rem;
+  margin-bottom: 3rem;;
+
+}
+#game .game-button{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+#game  .game-button .my-game-button{
+  border-radius: 3rem;
+  background: #7d0187;
+  color: #fff;
+  width: 12rem;
+  height: 3.5rem;
+  border: none;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+#inner-slider{
+  background: #10101a;
+  margin-top: 1rem;
+}
+#inner-slider .heading h2{
+  color:#2f2ba7;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+#inner-slider .pera{
+  color: #fff;
+}
+#inner-slider .game-button{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#inner-slider .game-button .my-game-button{
+  border-radius: 3rem;
+  background: #7d0187;
+  color: #fff;
+  width: 12rem;
+  height: 3.5rem;
+  border: none;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+#rewards{
+  margin-top: 3rem;
+  color: #423de6;
+}
+#rewards .card-img{
+  width: 8rem;
+}
+#rewards .icon1-body h3{
+  color: #7d0187;
+  font-size: 1.5rem;
+}
+#rewards .icon1-body p{
+  color:#000;
+}
+#hero-slider{
+  background:#f6f6f6;
+  margin-top: 4rem;;
+}
+#hero-slider .heading h2{
+  color:#2f2ba7;
+  font-size: 2.4rem;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+#hero-slider .pera{
+  color:#000;
+  line-height: 2rem;
+  margin-top: 2rem;
+}
+#hero-slider .game-button{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#hero-slider .game-button .my-game-button{
+  border-radius: 3rem;
+  background: #7d0187;
+  color: #fff;
+  width: 12rem;
+  height: 3.5rem;
+  border: none;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 576px) { 
+  #slider .container .my-jumbotron{
+    justify-content: center;
+    text-align: center;
+  }
+ }
+
+
+@media (min-width: 768px) { ... }
+
+
+@media (min-width: 992px) { ... }
+
+
+@media (min-width: 1200px) { ... }
