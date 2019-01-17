@@ -1,0 +1,12 @@
+#tbl{
+  margin: 0 auto;
+  /* background: red; */
+  text-align: center;
+  display: flex;
+  justify-content: center;;
+  margin-top: 2rem;
+}
+#tbl .one{
+  padding: 1rem;
+  border: 1px solid black;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>car world</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./style.css" />
+  </head>
+  <body>
+    <div
+      class="main"
+      style="
+          border: 1px solid;    
+          text-align: center;
+          width: 30%;
+          /* display: flex; */
+          justify-content: center;
+          margin: 0 auto;
+      "
+    >
+      <h2>car world</h2>
+      <form id="cars">
+        Name:<br />
+        <input type="text" name="firstname" id="name" value="" /><br />
+        Make:<br />
+        <input type="text" name="lastname" id="make" value="" /><br />
+        Model:<br />
+        <input type="text" name="lastname" id="model" value="" /><br />
+        Year:<br />
+        <input type="text" name="lastname" id="year" value="" /><br />
+        Description <br />
+        <textarea
+          name="discription"
+          id="discription"
+          cols="22"
+          rows="4"
+        ></textarea
+        ><br />
+        <button id="submit-btn" class="submit-btn">SUBMIT</button>
+      </form>
+    </div>
+
+    <div id="tbl">
+      <table id="table" class="table" style="text-align:center">
+        <thead>
+          <th class="one">Name</th>
+          <th class="one">make</th>
+          <th class="one">modal</th>
+          <th class="one">year</th>
+          <th class="one">Description</th>
+        </thead>
+      </table>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
